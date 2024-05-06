@@ -1,0 +1,185 @@
+header {
+    display: flex;
+    background-color: grey;
+    position: fixed; 
+
+}
+
+.nav-header, #logo, #katpw {
+   align-content: center;
+    margin-right: 230px;    
+}
+
+body {
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+body html {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-header ul li { 
+    list-style-type: none;
+    display: inline; 
+    margin-left: 20px;
+    color: black;   
+}
+
+.nav-header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-header ul li a:hover {
+    color: darkred;
+}
+
+#intro-video {
+    margin-left: 50px;
+    padding: 180px;
+    
+}
+
+h1 {
+    font-style: italic;
+    font-size: 40px;
+}
+
+
+
+#kat-pic {
+    border-radius: 200px;
+    border-style: inset;
+    margin-left: 150px;
+    margin-right: 200px;
+    
+}
+
+.about-me-content {
+    padding: 150px;
+}
+
+.bio-pic {
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    border-style: inset;
+    padding: 20px;
+    margin: 30px;
+    width: 87%;
+    background-color: dimgrey;
+}
+
+.nav-footer ul li {
+    list-style-type: none;
+    display: inline; 
+    margin-left: 20px;
+    text-decoration-color: black;
+}
+
+.nav-footer ul li a {
+    text-decoration: none;
+    color: black;   
+}
+
+.nav-footer ul li a:hover {
+    color: darkred;
+}
+
+
+.address, .nav-footer, .map {
+    margin-right: 60px;
+    align-content: center;
+}
+
+h4 {
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+#katpw {
+    font-weight: bold;
+    text-indent: 15px;
+    font-size: 20px;
+    margin-right: 100px;
+    color: white;
+}
+
+h3 {
+    border: 1px solid;
+    border-style: groove;
+    background-color: gray;
+    border-width: 6px;
+    border-right: 5px;
+}
+
+.me-pic {
+    padding: 0px;
+    float: left;
+    margin-right: 50px;
+}
+
+.about-info, .work-experience {
+    border: 1px solid;
+    padding: 20px;
+    margin: 30px;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+.about-info th {
+    background-color: gray;
+}
+
+.about-info td, .project-done td, .work-experience td {
+    background-color: darkgray;
+}
+
+.about-info th, .about-info td {
+    border: 1px solid;
+}
+
+.work-experience th {
+    background-color: gray;
+}
+
+.project-done {
+    border: 1px solid;
+    padding: 20px;
+    margin: 30px;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+.project-done th {
+    background-color: gray;
+}
+
+
+
+.container-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.contact-form {
+    border: 1px solid;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 250px;
+    margin-left: 20px;
+}
+
+.residence-status {
+    margin-right: 30px;
+}
+

@@ -4,56 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Katlego website</title>
+    <link rel="stylesheet" href="./index.css">
     <script src="https://kit.fontawesome.com/ac7f3340d5.js" crossorigin="anonymous"></script>
 </head>
 <body>
      <header>
         <div>
-            <img src="./assets/logo.png" width="150px" height="150px">
+            <img id="logo" src="./assets/logo.png" width="150px" height="150px">
+            
         </div>
-        <nav>
+        <p id="katpw">KAT'S PROFILE WEBPAGE</p>
+        <nav class="nav-header">
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="./index.html">Home</a></li>
                 <li><a href="./about.html">About Me</a></li>
-                <li></li><a href="./contact.html">Contact Us</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
             </ul>
         </nav>
      </header>
 
-<video src="assets/Kat_landing_video.mp4" width="600px" height="600px"></video>
+<video id="intro-video" src="assets/Kat_landing_video.mp4" width="1000px" height="600px" controls autoplay></video>
 <h1>Katlego Masekoameng</h1>
-<p>
-    
-Hello there! I'm Katlego, an honors student specializing in chemistry. My academic background is deeply rooted in laboratory work, but my interests have expanded into the dynamic realm of web development. I'm enthusiastic about merging my analytical mindset and problem-solving abilities with technology to tackle fresh challenges in the digital space.
-</p>
-<div>
-    <img src="./assets/Kat_portfolio_pic.JPG" width="600px" height="600px">
+
+<div class="bio-pic">
+    <p class="bio">
+        Hello there! I'm Katlego, an honors student specializing in chemistry. My academic background is deeply rooted in laboratory work, but my interests have expanded into the dynamic realm of web development. I'm enthusiastic about merging my analytical mindset and problem-solving abilities with technology to tackle fresh challenges in the digital space.
+    </p>
+    <img id="kat-pic" src="./assets/Kat_portfolio_pic.JPG" width="400px" height="400px">
+
 </div>
 <footer>
-        <div>
-           Physical Address <br>
+        <div class="address">
+           <h4>Physical Address</h4> <br>
            McDonald Avenue<br>
            Fauna Park<br>
            Polokwane, 0787<br>
            <br>
-           Phone #: +27 63 446 970
+           Phone #: +27 63 446 9703
+           <br>
+           <a href="https://www.linkedin.com/in/katlegomasekoameng/"><i class="fa-brands fa-linkedin"></i></a>
+           <a href="https://twitter.com/KatlegoBoledii"><i class="fa-brands fa-square-x-twitter"></i></a>
+           <a href="https://github.com/Katlie101"><i class="fa-brands fa-github"></i></a>
+
         </div>
-        <div>
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-brands fa-square-x-twitter"></i>
-            <i class="fa-brands fa-github"></i>
-        </div>
-        <nav>
+       
+        <nav class="nav-footer">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Me</a></li>
-                <li></li><a href="#">Contact Us</a></li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About Me</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
             </ul>
         </nav>
 
-
-         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3647.6065264672357!2d29.485597775120226!3d-23.903567478566263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ec6d9dffb4db987%3A0x15fb05c9a69ea25!2sSavannah%20Mall!5e0!3m2!1sen!2sza!4v1714920627166!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+    <div>
+         <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3647.6065264672357!2d29.485597775120226!3d-23.903567478566263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ec6d9dffb4db987%3A0x15fb05c9a69ea25!2sSavannah%20Mall!5e0!3m2!1sen!2sza!4v1714920627166!5m2!1sen!2sza" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
 </footer>
+      
 </body>
 </html>
